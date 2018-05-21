@@ -1,0 +1,667 @@
+msgid ""
+msgstr ""
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"Project-Id-Version: ALPS\n"
+"POT-Creation-Date: 2018-05-21 19:34+0200\n"
+"PO-Revision-Date: 2018-05-21 20:37+0200\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.7\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: style.css\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Last-Translator: \n"
+"Language: pl_PL\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: base.php:14
+msgid ""
+"You are using an <strong>outdated</strong> browser. Please <a href=\"http://"
+"browsehappy.com/\">upgrade your browser</a> to improve your experience."
+msgstr ""
+"Używasz <strong>nieaktualnej</strong> przeglądarki. Zaleca się <a href="
+"\"http://browsehappy.com/\">aktualizację przeglądarki</a>."
+
+#. translators: %s: post title
+#: comments.php:13
+#, php-format
+msgctxt "comments title"
+msgid "One thought on &ldquo;%s&rdquo;"
+msgstr "Jeden komentarz do &ldquo;%s&rdquo;"
+
+#: comments.php:19
+#, php-format
+msgctxt "comments title"
+msgid "%1$s thought on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s thoughts on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s komentarz &ldquo;%2$s&rdquo;"
+msgstr[1] "%1$s komentarze do &ldquo;%2$s&rdquo;"
+msgstr[2] "%1$s komentarzy do &ldquo;%2$s&rdquo;"
+
+#: comments.php:46 templates/comments.php:17
+msgid "Comments are closed."
+msgstr "Dodawanie komentarzy jest zablokowane."
+
+#: functions.php:23
+#, php-format
+msgid "Error locating %s for inclusion"
+msgstr "Błąd przy wyszukiwaniu %s"
+
+#: functions.php:51
+#, php-format
+msgid "%s"
+msgstr "%s"
+
+#: functions.php:53
+msgid "(Edit)"
+msgstr "(Edytuj)"
+
+#: functions.php:57
+msgid "Your comment is awaiting moderation."
+msgstr "Twój komentarz oczekuje na zatwierdzenie."
+
+#: functions.php:119
+msgid "ALPS Custom Settings"
+msgstr "Ustawienia niestandardowe ALPS"
+
+#: functions.php:120
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: functions.php:243
+msgid "Page"
+msgstr "Strona"
+
+#: functions.php:296
+msgid "Tertiary Navigation"
+msgstr "Nawigacja trzeciego poziomu"
+
+#: lib/extras.php:54
+msgid "Continued"
+msgstr "Kontynuacja"
+
+#: lib/plugin-activation.php:334
+msgid "Install Required Plugins"
+msgstr "Instalacja wymaganych wtyczek"
+
+#: lib/plugin-activation.php:335
+msgid "Install Plugins"
+msgstr "Instalacja wtyczek"
+
+#. translators: %s: plugin name.
+#: lib/plugin-activation.php:337
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr "Instalacja wtyczki: %s"
+
+#. translators: %s: plugin name.
+#: lib/plugin-activation.php:339
+#, php-format
+msgid "Updating Plugin: %s"
+msgstr "Aktualizacja wtyczki: %s"
+
+#: lib/plugin-activation.php:340
+msgid "Something went wrong with the plugin API."
+msgstr "Wystąpił błąd w API wtyczki."
+
+#. translators: 1: plugin name(s).
+#: lib/plugin-activation.php:343
+#, php-format
+msgid "This theme requires the following plugin: %1$s."
+msgid_plural "This theme requires the following plugins: %1$s."
+msgstr[0] "Ten motyw wymaga następującej wtyczki: %1$s."
+msgstr[1] "Ten motyw wymaga następujących wtyczek: %1$s."
+msgstr[2] "Ten motyw wymaga następujących wtyczek: %1$s."
+
+#. translators: 1: plugin name(s).
+#: lib/plugin-activation.php:349
+#, php-format
+msgid "This theme recommends the following plugin: %1$s."
+msgid_plural "This theme recommends the following plugins: %1$s."
+msgstr[0] "Ten motyw zaleca użycie następującej wtyczki: %1$s."
+msgstr[1] "Ten motyw zaleca użycie następujących wtyczek: %1$s."
+msgstr[2] "Ten motyw zaleca użycie następujących wtyczek: %1$s."
+
+#. translators: 1: plugin name(s).
+#: lib/plugin-activation.php:355
+#, php-format
+msgid ""
+"The following plugin needs to be updated to its latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgid_plural ""
+"The following plugins need to be updated to their latest version to ensure "
+"maximum compatibility with this theme: %1$s."
+msgstr[0] ""
+"Następująca wtyczka musi być zaktualizowana w celu zachowania pełnej "
+"zgodności z tym motywem: %1$s."
+msgstr[1] ""
+"Następujące wtyczki muszą być zaktualizowane w celu zachowania pełnej "
+"zgodności z tym motywem: %1$s."
+msgstr[2] ""
+"Następujące wtyczki muszą być zaktualizowane w celu zachowania pełnej "
+"zgodności z tym motywem: %1$s."
+
+#. translators: 1: plugin name(s).
+#: lib/plugin-activation.php:361
+#, php-format
+msgid "There is an update available for: %1$s."
+msgid_plural "There are updates available for the following plugins: %1$s."
+msgstr[0] "Aktualizacja jest dostępna dla: %1$s."
+msgstr[1] "Aktualizacje są dostępne dla wtyczek: %1$s."
+msgstr[2] "Aktualizacje są dostępne dla wtyczek: %1$s."
+
+#. translators: 1: plugin name(s).
+#: lib/plugin-activation.php:367
+#, php-format
+msgid "The following required plugin is currently inactive: %1$s."
+msgid_plural "The following required plugins are currently inactive: %1$s."
+msgstr[0] "Następująca wymagana wtyczka jest nieaktywna: %1$s."
+msgstr[1] "Następujące wymagane wtyczki są nieaktywne: %1$s."
+msgstr[2] "Następujące wymagane wtyczki są nieaktywne: %1$s."
+
+#. translators: 1: plugin name(s).
+#: lib/plugin-activation.php:373
+#, php-format
+msgid "The following recommended plugin is currently inactive: %1$s."
+msgid_plural "The following recommended plugins are currently inactive: %1$s."
+msgstr[0] "Następująca zalecana wtyczka jest nieaktywna: %1$s."
+msgstr[1] "Następujące zalecane wtyczki są nieaktywne: %1$s."
+msgstr[2] "Następujące zalecane wtyczki są nieaktywne: %1$s."
+
+#: lib/plugin-activation.php:378
+msgid "Begin installing plugin"
+msgid_plural "Begin installing plugins"
+msgstr[0] "Instaluj wtyczkę"
+msgstr[1] "Instaluj wtyczki"
+msgstr[2] "Instaluj wtyczki"
+
+#: lib/plugin-activation.php:383
+msgid "Begin updating plugin"
+msgid_plural "Begin updating plugins"
+msgstr[0] "Aktualizuj wtyczkę"
+msgstr[1] "Aktualizuj wtyczki"
+msgstr[2] "Aktualizuj wtyczki"
+
+#: lib/plugin-activation.php:388
+msgid "Begin activating plugin"
+msgid_plural "Begin activating plugins"
+msgstr[0] "Aktywuj wtyczkę"
+msgstr[1] "Aktywuj wtyczki"
+msgstr[2] "Aktywuj wtyczki"
+
+#: lib/plugin-activation.php:392
+msgid "Return to Required Plugins Installer"
+msgstr "Wróć do instalacji wymaganych wtyczek"
+
+#: lib/plugin-activation.php:393 lib/plugin-activation.php:920
+#: lib/plugin-activation.php:2626 lib/plugin-activation.php:3673
+msgid "Return to the Dashboard"
+msgstr "Wróć do panelu administracyjnego"
+
+#: lib/plugin-activation.php:394 lib/plugin-activation.php:3252
+msgid "Plugin activated successfully."
+msgstr "Wtyczka została aktywowana."
+
+#: lib/plugin-activation.php:395 lib/plugin-activation.php:3045
+msgid "The following plugin was activated successfully:"
+msgid_plural "The following plugins were activated successfully:"
+msgstr[0] "Wtyczka została aktywowana:"
+msgstr[1] "Wtyczki zostały aktywowane:"
+msgstr[2] "Wtyczki zostały aktywowane:"
+
+#. translators: 1: plugin name.
+#: lib/plugin-activation.php:397
+#, php-format
+msgid "No action taken. Plugin %1$s was already active."
+msgstr "Wtyczka %1$s już jest aktywna."
+
+#. translators: 1: plugin name.
+#: lib/plugin-activation.php:399
+#, php-format
+msgid ""
+"Plugin not activated. A higher version of %s is needed for this theme. "
+"Please update the plugin."
+msgstr ""
+"Wtyczka nie jest aktywna. Nowsza wersja %s jest potrzebna do działania tego "
+"motywu. Proszę zaktualizować wtyczkę."
+
+#. translators: 1: dashboard link.
+#: lib/plugin-activation.php:401
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr "Wszystkie wtyczki zostały zainstalowane i aktywowane. %1$s"
+
+#: lib/plugin-activation.php:402
+msgid "Dismiss this notice"
+msgstr "Ukryj"
+
+#: lib/plugin-activation.php:403
+msgid ""
+"There are one or more required or recommended plugins to install, update or "
+"activate."
+msgstr ""
+"Zalecane/wymagane wtyczki oczekują na instalację/aktualizację/aktywację."
+
+#: lib/plugin-activation.php:404
+msgid "Please contact the administrator of this site for help."
+msgstr ""
+"Proszę skontaktować się z administratorem tej strony w celu uzyskania pomocy."
+
+#: lib/plugin-activation.php:607
+msgid "This plugin needs to be updated to be compatible with your theme."
+msgstr ""
+"Ta wtyczka musi zostać zaktualizowana dla zachowania kompatybilności z Twoim "
+"motywem."
+
+#: lib/plugin-activation.php:608
+msgid "Update Required"
+msgstr "Aktualizacja jest wymagana"
+
+#: lib/plugin-activation.php:725
+msgid "Set the parent_slug config variable instead."
+msgstr "Ustaw raczej zmienną parent_slug."
+
+#: lib/plugin-activation.php:1027
+msgid ""
+"The remote plugin package does not contain a folder with the desired slug "
+"and renaming did not work."
+msgstr ""
+"Pakiet wtyczki nie zawiera katalogu z pożądanym slug, a zmiana nazw się nie "
+"powiodła."
+
+#: lib/plugin-activation.php:1027 lib/plugin-activation.php:1030
+msgid ""
+"Please contact the plugin provider and ask them to package their plugin "
+"according to the WordPress guidelines."
+msgstr ""
+"Proszę skontaktować się z dostawcą wtyczki w celu spakowania jej zgodnie z "
+"wytycznymi WordPress."
+
+#: lib/plugin-activation.php:1030
+msgid ""
+"The remote plugin package consists of more than one file, but the files are "
+"not packaged in a folder."
+msgstr ""
+"Paczka z wtyczką składa się z więcej niż jednego pliku, jednak pliki te nie "
+"są zgrupowane w katalog."
+
+#: lib/plugin-activation.php:1214 lib/plugin-activation.php:3041
+msgctxt "plugin A *and* plugin B"
+msgid "and"
+msgstr "oraz"
+
+#. translators: %s: version number
+#: lib/plugin-activation.php:2075
+#, php-format
+msgid "TGMPA v%s"
+msgstr "TGMPA v%s"
+
+#: lib/plugin-activation.php:2366
+msgid "Required"
+msgstr "Wymagane"
+
+#: lib/plugin-activation.php:2369
+msgid "Recommended"
+msgstr "Zalecane"
+
+#: lib/plugin-activation.php:2385
+msgid "WordPress Repository"
+msgstr "Repozytorium WordPress"
+
+#: lib/plugin-activation.php:2388
+msgid "External Source"
+msgstr "Źródło zewnętrzne"
+
+#: lib/plugin-activation.php:2391
+msgid "Pre-Packaged"
+msgstr "Wstępnie spakowane"
+
+#: lib/plugin-activation.php:2408
+msgid "Not Installed"
+msgstr "Niezainstalowane"
+
+#: lib/plugin-activation.php:2412
+msgid "Installed But Not Activated"
+msgstr "Zainstalowane, jednak nieaktywne"
+
+#: lib/plugin-activation.php:2414
+msgid "Active"
+msgstr "Aktywne"
+
+#: lib/plugin-activation.php:2420
+msgid "Required Update not Available"
+msgstr "Wymagana aktualizacja jest niedostępna"
+
+#: lib/plugin-activation.php:2423
+msgid "Requires Update"
+msgstr "Wymaga aktualizacji"
+
+#: lib/plugin-activation.php:2426
+msgid "Update recommended"
+msgstr "Aktualizacja zalecana"
+
+#. translators: 1: install status, 2: update status
+#: lib/plugin-activation.php:2435
+#, php-format
+msgctxt "Install/Update Status"
+msgid "%1$s, %2$s"
+msgstr "%1$s, %2$s"
+
+#. translators: 1: number of plugins.
+#: lib/plugin-activation.php:2481
+#, php-format
+msgctxt "plugins"
+msgid "All <span class=\"count\">(%s)</span>"
+msgid_plural "All <span class=\"count\">(%s)</span>"
+msgstr[0] "Wszystkie <span class=\"count\">(%s)</span>"
+msgstr[1] "Wszystkie <span class=\"count\">(%s)</span>"
+msgstr[2] "Wszystkie <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: lib/plugin-activation.php:2485
+#, php-format
+msgid "To Install <span class=\"count\">(%s)</span>"
+msgid_plural "To Install <span class=\"count\">(%s)</span>"
+msgstr[0] "Do instalacji <span class=\"count\">(%s)</span>"
+msgstr[1] "Do instalacji <span class=\"count\">(%s)</span>"
+msgstr[2] "Do instalacji <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: lib/plugin-activation.php:2489
+#, php-format
+msgid "Update Available <span class=\"count\">(%s)</span>"
+msgid_plural "Update Available <span class=\"count\">(%s)</span>"
+msgstr[0] "Dostępna aktualizacja <span class=\"count\">(%s)</span>"
+msgstr[1] "Dostępna aktualizacja <span class=\"count\">(%s)</span>"
+msgstr[2] "Dostępna aktualizacja <span class=\"count\">(%s)</span>"
+
+#. translators: 1: number of plugins.
+#: lib/plugin-activation.php:2493
+#, php-format
+msgid "To Activate <span class=\"count\">(%s)</span>"
+msgid_plural "To Activate <span class=\"count\">(%s)</span>"
+msgstr[0] "Do aktywacji <span class=\"count\">(%s)</span>"
+msgstr[1] "Do aktywacji <span class=\"count\">(%s)</span>"
+msgstr[2] "Do aktywacji <span class=\"count\">(%s)</span>"
+
+#: lib/plugin-activation.php:2575
+msgctxt "as in: \"version nr unknown\""
+msgid "unknown"
+msgstr "nieznana"
+
+#: lib/plugin-activation.php:2583
+msgid "Installed version:"
+msgstr "Wersja zainstalowana:"
+
+#: lib/plugin-activation.php:2591
+msgid "Minimum required version:"
+msgstr "Minimalna wymagana wersja:"
+
+#: lib/plugin-activation.php:2603
+msgid "Available version:"
+msgstr "Dostępna wersja:"
+
+#: lib/plugin-activation.php:2626
+msgid "No plugins to install, update or activate."
+msgstr "Brak wtyczek do instalacji/aktualizacji/aktywacji."
+
+#: lib/plugin-activation.php:2640
+msgid "Plugin"
+msgstr "Wtyczka"
+
+#: lib/plugin-activation.php:2641
+msgid "Source"
+msgstr "Źródło"
+
+#: lib/plugin-activation.php:2642
+msgid "Type"
+msgstr "Typ"
+
+#: lib/plugin-activation.php:2646
+msgid "Version"
+msgstr "Wersja"
+
+#: lib/plugin-activation.php:2647
+msgid "Status"
+msgstr "Status"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: lib/plugin-activation.php:2696
+#, php-format
+msgid "Install %2$s"
+msgstr "Instaluj %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: lib/plugin-activation.php:2701
+#, php-format
+msgid "Update %2$s"
+msgstr "Aktualizuj %2$s"
+
+#. translators: %2$s: plugin name in screen reader markup
+#: lib/plugin-activation.php:2707
+#, php-format
+msgid "Activate %2$s"
+msgstr "Aktywuj %2$s"
+
+#: lib/plugin-activation.php:2777
+msgid "Upgrade message from the plugin author:"
+msgstr "Wiadomość od autora wtyczki:"
+
+#: lib/plugin-activation.php:2810
+msgid "Install"
+msgstr "Instaluj"
+
+#: lib/plugin-activation.php:2816
+msgid "Update"
+msgstr "Aktualizuj"
+
+#: lib/plugin-activation.php:2819
+msgid "Activate"
+msgstr "Aktywuj"
+
+#: lib/plugin-activation.php:2850
+msgid "No plugins were selected to be installed. No action taken."
+msgstr "Nie wybrano wtyczek do instalacji."
+
+#: lib/plugin-activation.php:2852
+msgid "No plugins were selected to be updated. No action taken."
+msgstr "Nie wybrano wtyczek do aktualizacji."
+
+#: lib/plugin-activation.php:2893
+msgid "No plugins are available to be installed at this time."
+msgstr "Brak dostępnych wtyczek do instalacji."
+
+#: lib/plugin-activation.php:2895
+msgid "No plugins are available to be updated at this time."
+msgstr "Brak wtyczek do aktualizacji."
+
+#: lib/plugin-activation.php:3001
+msgid "No plugins were selected to be activated. No action taken."
+msgstr "Nie wybrano wtyczek do aktywacji."
+
+#: lib/plugin-activation.php:3027
+msgid "No plugins are available to be activated at this time."
+msgstr "Brak dostępnych wtyczek do aktywacji."
+
+#: lib/plugin-activation.php:3251
+msgid "Plugin activation failed."
+msgstr "Aktywacja wtyczka nie udała się."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: lib/plugin-activation.php:3591
+#, php-format
+msgid "Updating Plugin %1$s (%2$d/%3$d)"
+msgstr "Aktualizacja wtyczki %1$s (%2$d/%3$d)"
+
+#. translators: 1: plugin name, 2: error message.
+#: lib/plugin-activation.php:3594
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr "Błąd podczas instalacji %1$s: <strong>%2$s</strong>."
+
+#. translators: 1: plugin name.
+#: lib/plugin-activation.php:3596
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr "Instalacja %1$s nie udała się."
+
+#: lib/plugin-activation.php:3600
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+"Proces instalacji oraz aktywacji się rozpoczął. Może on zająć sporo czasu, "
+"więc należy uzbroić się w cierpliwość."
+
+#. translators: 1: plugin name.
+#: lib/plugin-activation.php:3602
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr "%1$s zainstalowano i aktywowano."
+
+#: lib/plugin-activation.php:3602 lib/plugin-activation.php:3610
+msgid "Show Details"
+msgstr "Pokaż szczegóły"
+
+#: lib/plugin-activation.php:3602 lib/plugin-activation.php:3610
+msgid "Hide Details"
+msgstr "Ukryj szczegóły"
+
+#: lib/plugin-activation.php:3603
+msgid "All installations and activations have been completed."
+msgstr "Instalacja oraz aktualizacja zakończyła się pomyślnie."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: lib/plugin-activation.php:3605
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalacja i aktywacja wtyczki %1$s (%2$d/%3$d)"
+
+#: lib/plugin-activation.php:3608
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+"Proces instalacji się rozpoczął. Może on zająć sporo czasu w zależności od "
+"komputera, więc należy uzbroić się w cierpliwość."
+
+#. translators: 1: plugin name.
+#: lib/plugin-activation.php:3610
+#, php-format
+msgid "%1$s installed successfully."
+msgstr "%1$s zainstalowano."
+
+#: lib/plugin-activation.php:3611
+msgid "All installations have been completed."
+msgstr "Instalacja została zakończona."
+
+#. translators: 1: plugin name, 2: action number 3: total number of actions.
+#: lib/plugin-activation.php:3613
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr "Instalacja wtyczki %1$s (%2$d/%3$d)"
+
+#: lib/setup.php:22
+msgid "Primary Navigation"
+msgstr "Nawigacja pierwszego poziomu"
+
+#: lib/setup.php:23
+msgid "Secondary Navigation"
+msgstr "Nawigacja drugiego poziomu"
+
+#: lib/setup.php:24
+msgid "Secondary Footer Navigation"
+msgstr "Nawigacja drugiego poziomu w stopce"
+
+#: lib/setup.php:25
+msgid "Primary Footer Navigation"
+msgstr "Nawigacja pierwszego poziomu w stopce"
+
+#: lib/setup.php:53
+msgid "Primary Top (Home Template)"
+msgstr "Pierwszy nagłówek (szablon strony domowej)"
+
+#: lib/setup.php:61
+msgid "Primary Main (Home Template)"
+msgstr "Pierwsza część główna (szablon strony domowej)"
+
+#: lib/setup.php:69
+msgid "Primary Bottom (Home Template)"
+msgstr "Pierwsza stopka (szablon strony domowej)"
+
+#: lib/titles.php:13
+msgid "Latest Posts"
+msgstr "Najnowsze posty"
+
+#: lib/titles.php:18
+#, php-format
+msgid "Search Results for %s"
+msgstr "Wyniki wyszukiwania %s"
+
+#: lib/titles.php:20
+msgid "Not Found"
+msgstr "Nie znaleziono"
+
+#: page-search.php:12 page-search.php:15
+msgid "Search"
+msgstr "Szukaj"
+
+#: patterns/components/news-header.php:11 patterns/components/share-tools.php:4
+msgid "Share"
+msgstr "Udostępnij"
+
+#: patterns/components/pagination.php:6
+msgid "Next &rarr;"
+msgstr "Następny &rarr;"
+
+#: patterns/components/pagination.php:7
+msgid "&larr; Previous"
+msgstr "&larr; Poprzedni"
+
+#: piklist/parts/widgets/widget-post-feed.php:49 template-news.php:54
+#: template-news.php:190 templates/block-layout-front.php:58
+#: templates/block-layout.php:28 templates/block-layout.php:95
+#: templates/content-search.php:29 templates/content.php:40
+msgid "Read More"
+msgstr "Czytaj dalej"
+
+#: template-news.php:27
+msgid "Recent"
+msgstr "Ostatnie"
+
+#: template-news.php:78
+msgid "ANN Video"
+msgstr "Wideo ANN"
+
+#: template-news.php:162
+msgid "Photos"
+msgstr "Zdjęcia"
+
+#: templates/comments.php:9
+#, php-format
+msgctxt "comments"
+msgid "One comment"
+msgid_plural "%1$s comments"
+msgstr[0] "Komentarz"
+msgstr[1] "%1$s komentarze"
+msgstr[2] "%1$s komentarzy"
+
+#: templates/content-search.php:15 templates/content.php:16
+msgid "Sorry, no results were found."
+msgstr "Brak wyników wyszukiwania."
+
+#: templates/content.php:23
+msgid "All Posts"
+msgstr "Wszystkie posty"
+
+#: templates/entry-meta.php:2
+msgid "By"
+msgstr "Przez"
