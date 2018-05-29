@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
 "Project-Id-Version: ALPS\n"
-"POT-Creation-Date: 2018-05-29 22:22+0200\n"
+"POT-Creation-Date: 2018-05-29 22:55+0200\n"
 "PO-Revision-Date: 2018-04-12 11:35-0400\n"
 "Last-Translator: \n"
 "Language-Team: \n"
@@ -612,6 +612,14 @@ msgid "One comment"
 msgid_plural "%1$s comments"
 msgstr[0] ""
 msgstr[1] ""
+
+#: templates/comments.php:26
+msgid "Leave a Comment"
+msgstr ""
+
+#: templates/comments.php:27
+msgid "Submit"
+msgstr ""
 
 #: templates/content-search.php:15 templates/content.php:16
 msgid "Sorry, no results were found."

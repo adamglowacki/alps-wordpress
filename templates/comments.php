@@ -23,8 +23,8 @@ if (post_password_required()) {
     			'title_reply_before' => '<h3 class="comment-reply-title font--tertiary--m theme--primary-text-color">',
     			'title_reply_after'  => '</h3>',
           'logged_in_as' => '',
-          'title_reply' => 'Leave a Comment',
-          'label_submit' => 'Submit',
+          'title_reply' => __('Leave a Comment', 'sage'),
+          'label_submit' => __('Submit', 'sage'),
           'class_form' => 'spacing--half'
     		)
       );
