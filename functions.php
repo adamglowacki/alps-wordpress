@@ -50,11 +50,11 @@ function alps_comments($comment, $args, $depth) {
       <div class="comment__meta">
         <span class="byline font--secondary--s gray can-be--white theme--secondary-text-color"><?php printf( __('%s'), get_comment_author_link()); ?></span>
         <span class="divider">|</span>
-        <span class="pub_date font--secondary--s gray can-be--white"><?php echo human_time_diff(get_comment_time('U'), current_time('timestamp')) . ' ago'; ?></span><span class="comment__edit-link font--secondary--s theme--primary-text-color"><?php edit_comment_link( __('(Edit)'), '  ', ''); ?></span>
+        <span class="pub_date font--secondary--s gray can-be--white"><?php echo human_time_diff(get_comment_time('U'), current_time('timestamp')) . ' ago'; ?></span><span class="comment__edit-link font--secondary--s theme--primary-text-color"><?php edit_comment_link( __('(Edit)', 'sage'), '  ', ''); ?></span>
       </div>
       <p class="comment__content"><?php comment_text(); ?></p>
       <?php if ($comment->comment_approved == '0'): ?>
-        <p><em class="comment-awaiting-moderation"><?php _e( 'Your comment is awaiting moderation.' ); ?></em><p>
+        <p><em class="comment-awaiting-moderation"><?php _e( 'Your comment is awaiting moderation.', 'sage'); ?></em><p>
       <?php endif; ?>
       <div class="comment__reply">
         <span class="font--secondary--s theme--primary-text-color">
@@ -116,8 +116,8 @@ add_action( 'init', 'my_custom_init' );
 add_filter('piklist_admin_pages', 'piklist_theme_setting_pages');
 function piklist_theme_setting_pages($pages) {
    $pages[] = array(
-    'page_title' => __('ALPS Custom Settings')
-    ,'menu_title' => __('Settings', 'piklist')
+    'page_title' => __('ALPS Custom Settings', 'sage')
+    ,'menu_title' => __('Settings', 'sage')
     ,'sub_menu' => 'themes.php' //Under Appearance menu
     ,'capability' => 'manage_options'
     ,'menu_slug' => 'custom_settings'
@@ -240,7 +240,7 @@ function wordpress_breadcrumbs() {
     if (get_query_var('paged')) {
       if (is_category() || is_day() || is_month() || is_year() || is_search() || is_tag() || is_author()) {
         echo ' (';
-        echo __('Page') . ' ' . get_query_var('paged');
+        echo __('Page', 'sage') . ' ' . get_query_var('paged');
       }
       if (is_category() || is_day() || is_month() || is_year() || is_search() || is_tag() || is_author()) {
         echo ')';
@@ -293,7 +293,7 @@ function adventist_register_required_plugins() {
 function register_my_menus() {
   register_nav_menus(
     array(
-      'tertiary_navigation' => __( 'Tertiary Navigation' )
+      'tertiary_navigation' => __( 'Tertiary Navigation', 'sage')
     )
   );
 }
