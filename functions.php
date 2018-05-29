@@ -54,7 +54,7 @@ function alps_comments($comment, $args, $depth) {
       </div>
       <p class="comment__content"><?php comment_text(); ?></p>
       <?php if ($comment->comment_approved == '0'): ?>
-        <p><em class="comment-awaiting-moderation"><?php _e( 'Your comment is awaiting moderation.' ); ?></em><p>
+        <p><em class="comment-awaiting-moderation"><?php _e( 'Your comment is awaiting moderation.', 'sage'); ?></em><p>
       <?php endif; ?>
       <div class="comment__reply">
         <span class="font--secondary--s theme--primary-text-color">
@@ -117,7 +117,7 @@ add_filter('piklist_admin_pages', 'piklist_theme_setting_pages');
 function piklist_theme_setting_pages($pages) {
    $pages[] = array(
     'page_title' => __('ALPS Custom Settings', 'sage')
-    ,'menu_title' => __('Settings', 'piklist')
+    ,'menu_title' => __('Settings', 'sage')
     ,'sub_menu' => 'themes.php' //Under Appearance menu
     ,'capability' => 'manage_options'
     ,'menu_slug' => 'custom_settings'
