@@ -1,16 +1,107 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="136.43" width="580.31" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" viewBox="0 0 580.31085 136.43338">
- <metadata>
-  <rdf:RDF>
-   <cc:Work rdf:about="">
-    <dc:format>image/svg+xml</dc:format>
-    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
-    <dc:title/>
-   </cc:Work>
-  </rdf:RDF>
- </metadata>
- <g fill="none" transform="translate(-30 -45.283)">
-  <path fill="#fff" d="m106.92 171.31c0 0.54 0.62 0.543 0.731 0 0.824-3.998 2.075-6.663 4.03-9.25l-4.397 0.003c-0.201 0-0.364 0.162-0.364 0.363zm31.611-55.503c0.05 5.78-1.61 10.747-12.15 21.297l-8.336 8.338c-3.794 3.797-7.205 7.264-9.222 10.73h8.233l0.974-0.975 11.96-11.984c9.96-9.97 11.349-20.516 9.223-27.395-0.181-0.584-0.687-0.623-0.682-0.01zm-10.496 35.265-9.99 10.008c-6.047 6.053-11.125 11.269-11.125 16.973l0.006 1.588c0 0.43 0.536 0.499 0.7 0.048 1.868-5.107 8.106-10.557 19.548-8.625 0 0 49.849 8.622 50.267 8.659 0.487 0.043 0.728-0.437 0.414-0.81-0.189-0.225-23.2-23.258-23.2-23.258zm-36.062 10.988a0.364 0.364 0 0 1 -0.364 -0.364v-5.163c0-0.202 0.163-0.364 0.364-0.364l8.724 0.002c0.201 0 0.364-0.163 0.364-0.364-0.023-4.637-3.515-7.788-17.508-5.35l-30.215 5.198s-23.012 23.033-23.2 23.258c-0.315 0.373-0.074 0.853 0.413 0.81 0.42-0.037 50.267-8.66 50.267-8.66 11.443-1.931 17.681 3.52 19.548 8.626 0.164 0.45 0.701 0.383 0.701-0.048l0.001-17.218c0-0.2-0.163-0.363-0.364-0.363zm-13.919-72.167c-9.96 9.969-11.349 20.516-9.222 27.395 0.18 0.584 0.686 0.623 0.68 0.01-0.05-5.78 1.612-10.746 12.151-21.296l22.721-22.735c6.047-6.054 11.125-11.27 11.125-16.973v-8.897c0-0.542-0.62-0.544-0.732 0-1.494 7.26-4.395 10.125-10.378 16.113l-26.34 26.382zm37.481-26.933c0-0.54-0.62-0.543-0.732 0-1.494 7.261-4.388 10.17-10.37 16.16l-23.87 23.86c-11.58 11.592-13.584 22.81-7.694 30.02 0.393 0.481 0.815 0.192 0.56-0.388-3.895-8.819 5.443-18.17 9.889-22.62l21.085-21.1c6.047-6.053 11.125-11.269 11.125-16.973zm-34.311 55.008c-11.581 11.592-6.256 22.787 0.5 25.87 0.592 0.27 0.828-0.211 0.374-0.603-5.416-4.699-3.772-12.6 3.04-19.418l19.248-19.267c6.047-6.053 11.124-11.268 11.124-16.972v-8.896c0-0.54-0.62-0.543-0.73 0-1.495 7.259-4.39 10.112-10.373 16.1zm25.688 37.771c0 0.541 0.62 0.543 0.73 0 1.496-7.259 4.39-10.17 10.372-16.158l9.479-9.468c11.58-11.59 13.583-22.809 7.693-30.018-0.393-0.481-0.815-0.193-0.558 0.387 3.893 8.819-5.444 18.169-9.89 22.62l-6.701 6.709c-6.048 6.052-11.125 11.267-11.125 16.971zm11.128-31.822c-5.983 5.988-8.879 8.841-10.373 16.101-0.112 0.544-0.731 0.542-0.731 0v-8.896c0-5.703 5.077-10.92 11.125-16.972l4.862-4.868c6.813-6.82 8.457-14.719 3.04-19.418-0.453-0.392-0.217-0.874 0.376-0.603 6.755 3.082 12.08 14.277 0.498 25.87zm56.364 39.421c0.496 0 0.792-0.277 0.792-0.678 0-0.447-0.248-0.64-0.801-0.64h-0.468v1.318zm-1.2-1.927h1.22c1.039 0 1.506 0.41 1.506 1.231 0 0.6-0.363 0.934-0.744 1.087l1.107 1.85h-0.82l-0.955-1.65h-0.59v1.65h-0.725v-4.168zm4.262 2.079c0-1.65-1.231-2.995-2.957-2.995s-2.966 1.25-2.966 2.995c0 1.65 1.24 2.995 2.966 2.995 1.632 0 2.957-1.25 2.957-2.995zm-6.457 0c0-2.03 1.47-3.5 3.5-3.5 1.936 0 3.5 1.47 3.5 3.5 0 2.032-1.468 3.5-3.5 3.5-2.03 0-3.5-1.468-3.5-3.5z"/>
- </g>
- <text style="word-spacing:0px;letter-spacing:0px" xml:space="preserve" font-size="40px" line-height="1.25" y="32.682667" x="176.83749" font-family="sans-serif" fill="#ffffff"><g font-family="&apos;Advent Sans&apos;" fill="#ffffff"><tspan font-size="42.667px" y="32.682667" x="176.83749">Kościół Adwentystów</tspan><tspan font-size="42.667px" y="86.113388" x="176.83749">Dnia Siódmego</tspan><tspan font-size="32px" y="136.11337" x="176.83749">Zbór w Sosnowcu</tspan></g></text>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   viewBox="0 0 1054.74 227.62735"
+   version="1.1"
+   id="svg885"
+   width="1054.7401"
+   height="227.62701"
+   sodipodi:docname="wide.svg"
+   inkscape:version="0.92.3 (2405546, 2018-03-11)">
+  <metadata
+     id="metadata15">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title>Seventh-day Adventist Church</dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs13" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1376"
+     id="namedview11"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.36680533"
+     inkscape:cx="496.17567"
+     inkscape:cy="113.81351"
+     inkscape:window-x="0"
+     inkscape:window-y="27"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg885" />
+  <title
+     id="title881">Seventh-day Adventist Church</title>
+  <path
+     d="m 67.676676,120.375 c -0.1,-9.9 2.8,-18.4 20.8,-36.4 l 39.000004,-39 c 10.4,-10.4 19.1,-19.3 19.1,-29 v -15.3 c 0,-0.9 -1.1,-0.9 -1.2,0 -2.6,12.4 -7.5,17.3 -17.8,27.6 l -45.300004,45.2 c -17.1,17 -19.5,35.1 -15.8,46.9 0.3,1 1.2,1.1 1.2,0 z m 64.200004,38.9 c 0,0.9 1,0.9 1.2,0 2.6,-12.5 7.6,-17.4 17.8,-27.6 l 15.1,-14.9 c 19.8,-19.9 10.7,-39 -0.9,-44.3 -1,-0.5 -1.4,0.3 -0.6,1 9.3,8 6.5,21.5 -5.2,33.2 l -8.3,8.3 c -10.4,10.3 -19.1,19.2 -19.1,29 z m 81.8,26.6 -45.7,-7.7 -17.1,17.1 c -10.4,10.4 -19,19.3 -19,29 v 2.7 c 0,0.7 0.9,0.9 1.2,0.1 3.2,-8.7 13.9,-18.1 33.5,-14.8 0,0 85.4,14.8 86.1,14.8 a 0.89,0.89 0 0 0 1,-0.6 0.78,0.78 0 0 0 -0.2,-0.8 c -0.3,-0.4 -39.8,-39.8 -39.8,-39.8 z m -107.5,1 h 15 a 0.65,0.65 0 0 0 0.6,-0.6 c 0,-7.9 -6,-13.3 -30.000004,-9.2 l -51.8,8.9 c 0,0 -39.40000002,39.4 -39.70000002,39.8 a 0.79,0.79 0 0 0 -0.1,1.1 0.78,0.78 0 0 0 0.8,0.2 c 0.70000002,-0.1 86.10000002,-14.8 86.10000002,-14.8 19.600004,-3.3 30.300004,6 33.500004,14.8 0.3,0.8 1.2,0.7 1.2,-0.1 v -29.5 a 0.65,0.65 0 0 0 -0.6,-0.6 l -15,0.1 a 0.65,0.65 0 0 1 -0.6,-0.6 v -8.9 a 0.65,0.65 0 0 1 0.6,-0.6 z m 26.8,25.9 a 36.27,36.27 0 0 1 6.9,-15.8 h -7.5 a 0.65,0.65 0 0 0 -0.6,0.6 v 15.2 c 0,0.9 1.1,0.9 1.2,0 z m 13.6,-158.6 c 0,-0.9 -1.1,-0.9 -1.2,0 -2.6,12.4 -7.5,17.3 -17.8,27.6 l -39.800004,39.7 c -19.8,19.8 -10.7,39 0.9,44.3 1,0.5 1.4,-0.4 0.6,-1 -9.3,-8 -6.5,-21.6 5.2,-33.2 l 33.000004,-33 c 10.4,-10.4 19.1,-19.3 19.1,-29 z m -19.1,17.5 c 10.4,-10.3 19,-19.2 19.1,-29 v -15.4 c 0,-0.9 -1.1,-0.9 -1.2,0 -2.6,12.4 -7.5,17.4 -17.8,27.7 l -40.900004,40.8 c -19.8,19.8 -23.3,39 -13.2,51.4 0.7,0.8 1.4,0.3 1,-0.7 -6.7,-15.1 9.3,-31.1 16.9,-38.7 z m 37.6,82.5 -14.3,14.2 c -6.5,6.5 -12.3,12.4 -15.8,18.4 h 14.1 l 1.7,-1.7 20.5,-20.5 c 17.1,-16.9 19.5,-35 15.8,-46.8 -0.3,-1 -1.2,-1.1 -1.2,0 0.1,9.9 -2.8,18.4 -20.8,36.4 z m -2.8,-24 -11.4,11.5 c -10.4,10.4 -19.1,19.4 -19.1,29.1 v 15.3 c 0,0.9 1.1,0.9 1.2,0 2.6,-12.4 7.5,-17.4 17.8,-27.7 l 16.2,-16.2 c 19.8,-19.8 23.3,-39 13.2,-51.4 -0.7,-0.8 -1.4,-0.3 -1,0.7 6.7,15.1 -9.3,31.1 -16.9,38.7 z m 83.5,68.2 h 1.1 l 1.7,3 h 1.5 l -2,-3.3 a 2,2 0 0 0 1.3,-2 c 0,-1.5 -0.8,-2.2 -2.7,-2.2 h -2.2 v 7.5 h 1.3 z m 0,-3.5 h 0.8 c 1,0 1.4,0.3 1.4,1.2 0,0.7 -0.5,1.2 -1.4,1.2 h -0.9 v -2.4 z m 1,9 c 5.614,0 8.424,-6.786 4.455,-10.755 -3.969,-3.968 -10.755,-1.158 -10.755,4.455 a 6.09,6.09 0 0 0 6.3,6.3 z m 0,-11.7 a 5.4,5.4 0 1 1 0,10.8 5.32,5.32 0 0 1 -5.4,-5.4 5.26,5.26 0 0 1 5.4,-5.4 z"
+     id="path883"
+     inkscape:connector-curvature="0"
+     style="fill:#ffffff" />
+  <g
+     id="g914"
+     transform="translate(-0.02332402,15.379)"
+     font-style="normal"
+     font-weight="400"
+     font-size="40"
+     letter-spacing="0"
+     word-spacing="0"
+     style="font-style:normal;font-weight:400;font-size:40px;font-family:sans-serif;letter-spacing:0;word-spacing:0;fill:#ffffff;fill-opacity:1;stroke:none">
+    <text
+       id="text897"
+       y="66.689003"
+       x="275.39099"
+       style="line-height:1.25"
+       xml:space="preserve"><tspan
+         style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:74.66699982px;line-height:1;font-family:'Advent Sans';-inkscape-font-specification:'Advent Sans';fill:#ffffff"
+         y="66.689003"
+         x="275.39099"
+         id="tspan895"
+         font-style="normal"
+         font-variant="normal"
+         font-weight="400"
+         font-stretch="normal"
+         font-size="74.667">Kościół Adwentystów</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:400;font-stretch:normal;font-size:74.66699982px;line-height:1;font-family:'Advent Sans';-inkscape-font-specification:'Advent Sans';fill:#ffffff"
+         id="tspan899"
+         y="141.356"
+         x="275.39099"
+         font-style="normal"
+         font-variant="normal"
+         font-weight="400"
+         font-stretch="normal"
+         font-size="74.667">Dnia Siódmego</tspan></text>
+    <text
+       id="text905"
+       y="186.696"
+       x="279.82501"
+       style="line-height:1.25"
+       xml:space="preserve"><tspan
+         y="186.696"
+         x="279.82501"
+         id="tspan903"
+         font-size="48"
+         style="font-size:48px;fill:#ffffff">zbór w Sosnowcu</tspan></text>
+  </g>
 </svg>
