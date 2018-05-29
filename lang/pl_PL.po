@@ -1,15 +1,17 @@
 msgid ""
 msgstr ""
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
 "Project-Id-Version: ALPS\n"
-"POT-Creation-Date: 2018-04-12 12:01-0400\n"
-"PO-Revision-Date: 2018-05-01 21:28+0200\n"
+"POT-Creation-Date: 2018-05-29 22:07+0200\n"
+"PO-Revision-Date: 2018-05-29 22:08+0200\n"
+"Last-Translator: \n"
 "Language-Team: \n"
+"Language: pl_PL\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.0.6\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
+"|| n%100>=20) ? 1 : 2);\n"
+"X-Generator: Poedit 2.0.7\n"
 "X-Poedit-Basepath: ..\n"
 "X-Poedit-Flags-xgettext: --add-comments=translators:\n"
 "X-Poedit-WPHeader: style.css\n"
@@ -17,8 +19,6 @@ msgstr ""
 "X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
 "esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
 "_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
-"Last-Translator: \n"
-"Language: pl_PL\n"
 "X-Poedit-SearchPath-0: .\n"
 "X-Poedit-SearchPathExcluded-0: *.js\n"
 
@@ -58,7 +58,7 @@ msgstr "Niepowodzenie wyszukiwania %s"
 #: functions.php:51
 #, php-format
 msgid "%s"
-msgstr ""
+msgstr "%s"
 
 #: functions.php:53
 msgid "(Edit)"
@@ -274,6 +274,8 @@ msgid ""
 "The remote plugin package does not contain a folder with the desired slug "
 "and renaming did not work."
 msgstr ""
+"Pakiet wtyczki nie zawiera katalogu z pożądanym slug, a zmiana nazw się nie "
+"powiodła."
 
 #: lib/plugin-activation.php:1027 lib/plugin-activation.php:1030
 msgid ""
@@ -299,7 +301,7 @@ msgstr "i"
 #: lib/plugin-activation.php:2075
 #, php-format
 msgid "TGMPA v%s"
-msgstr ""
+msgstr "TGMPA v%s"
 
 #: lib/plugin-activation.php:2366
 msgid "Required"
@@ -350,7 +352,7 @@ msgstr "Aktualizacja jest zalecana"
 #, php-format
 msgctxt "Install/Update Status"
 msgid "%1$s, %2$s"
-msgstr ""
+msgstr "%1$s, %2$s"
 
 #. translators: 1: number of plugins.
 #: lib/plugin-activation.php:2481
@@ -581,15 +583,15 @@ msgstr "Nawigacja pierwszego poziomu w stopce"
 
 #: lib/setup.php:53
 msgid "Primary Top (Home Template)"
-msgstr ""
+msgstr "Pierwszy nagłówek (szablon strony domowej)"
 
 #: lib/setup.php:61
 msgid "Primary Main (Home Template)"
-msgstr ""
+msgstr "Pierwsza część główna (szablon strony domowej)"
 
 #: lib/setup.php:69
 msgid "Primary Bottom (Home Template)"
-msgstr ""
+msgstr "Pierwsza stopka (szablon strony domowej)"
 
 #: lib/titles.php:13
 msgid "Latest Posts"
@@ -604,6 +606,14 @@ msgstr "Wyniki wyszukiwania dla %s"
 msgid "Not Found"
 msgstr "Nie znaleziono"
 
+#: page-search.php:12 page-search.php:15
+msgid "Search"
+msgstr "Szukaj"
+
+#: patterns/components/news-header.php:11 patterns/components/share-tools.php:4
+msgid "Share"
+msgstr "Udostępnij"
+
 #: patterns/components/pagination.php:6
 msgid "Next &rarr;"
 msgstr "Następny &rarr;"
@@ -612,9 +622,24 @@ msgstr "Następny &rarr;"
 msgid "&larr; Previous"
 msgstr "&larr; Poprzedni"
 
-#: template-news.php:72
-msgid "ANN Videos"
+#: piklist/parts/widgets/widget-post-feed.php:49 template-news.php:54
+#: template-news.php:190 templates/block-layout-front.php:58
+#: templates/block-layout.php:28 templates/block-layout.php:95
+#: templates/content-search.php:29 templates/content.php:40
+msgid "Read More"
+msgstr "Czytaj dalej"
+
+#: template-news.php:27
+msgid "Recent"
+msgstr "Ostatnie"
+
+#: template-news.php:78
+msgid "ANN Video"
 msgstr "Wideo ANN"
+
+#: template-news.php:162
+msgid "Photos"
+msgstr "Zdjęcia"
 
 #: templates/comments.php:9
 #, php-format
@@ -629,30 +654,20 @@ msgstr[2] "%1$s komentarzy"
 msgid "Sorry, no results were found."
 msgstr "Przykro mi, nic nie znaleziono."
 
+#: templates/content.php:23
+msgid "All Posts"
+msgstr "Wszystkie posty"
+
 #: templates/entry-meta.php:2
 msgid "By"
 msgstr "Przez"
 
-#. Theme Name of the plugin/theme
-msgid "ALPS"
-msgstr ""
+#~ msgid ""
+#~ "ALPS is the Adventist Living Pattern Library theme based off of the Sage "
+#~ "WordPress theme."
+#~ msgstr ""
+#~ "ALPS to motyw Adventist Living Pattern Library, stworzony na bazie motywu "
+#~ "Sage WordPress."
 
-#. Theme URI of the plugin/theme
-msgid "http://www.adventist.io"
-msgstr ""
-
-#. Description of the plugin/theme
-msgid ""
-"ALPS is the Adventist Living Pattern Library theme based off of the Sage "
-"WordPress theme."
-msgstr ""
-"ALPS to motyw Adventist Living Pattern Library, stworzony na bazie motywu "
-"Sage WordPress."
-
-#. Author of the plugin/theme
-msgid "Seventh-day Adventist Church and Southleft"
-msgstr "Kościół Adwentystów Dnia Siódmego oraz Southleft"
-
-#. Author URI of the plugin/theme
-msgid "http://www.adventist.io/themes"
-msgstr ""
+#~ msgid "Seventh-day Adventist Church and Southleft"
+#~ msgstr "Kościół Adwentystów Dnia Siódmego oraz Southleft"
