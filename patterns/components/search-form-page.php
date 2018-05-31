@@ -3,7 +3,7 @@
     <legend class="is-vishidden">__('Search', 'sage')</legend>
     <div class="field-container field-container--inline">
       <input name="q" class="term search__results__input font--secondary--s" type="search" autocomplete="off">
-      <button class="search__submit font--secondary--s upper theme--secondary-background-color">__('Search', 'sage')</button>
+      <button class="search__submit font--secondary--s upper theme--secondary-background-color">"<?php __('Search', 'sage')?>"</button>
     </div>
   </fieldset>
 </form>
