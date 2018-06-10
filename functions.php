@@ -50,7 +50,7 @@ function alps_comments($comment, $args, $depth) {
       <div class="comment__meta">
         <span class="byline font--secondary--s gray can-be--white theme--secondary-text-color"><?php printf( __('%s'), get_comment_author_link()); ?></span>
         <span class="divider">|</span>
-        <span class="pub_date font--secondary--s gray can-be--white"><?php echo human_time_diff(get_comment_time('U'), current_time('timestamp')) . ' ago'; ?></span><span class="comment__edit-link font--secondary--s theme--primary-text-color"><?php edit_comment_link( __('(Edit)', 'sage'), '  ', ''); ?></span>
+        <span class="pub_date font--secondary--s gray can-be--white"><?php echo human_time_diff(get_comment_time('U'), current_time('timestamp')) . __(' ago', 'sage'); ?></span><span class="comment__edit-link font--secondary--s theme--primary-text-color"><?php edit_comment_link( __('(Edit)', 'sage'), '  ', ''); ?></span>
       </div>
       <p class="comment__content"><?php comment_text(); ?></p>
       <?php if ($comment->comment_approved == '0'): ?>
@@ -157,7 +157,7 @@ function widget( $args, $instance ) {
  * Breadcrumbs
  */
 function wordpress_breadcrumbs() {
-  $name = 'Home'; //text for the 'Home' link
+  $name = __('Home', 'sage'); //text for the 'Home' link
   $current_before = '<li class="breadcrumbs__list-item font--secondary--xs upper dib"><a class="breadcrumbs__link can-be--white">';
   $current_after = '</a></li>';
   $li_class = 'breadcrumbs__list-item font--secondary--xs upper dib';
@@ -175,7 +175,7 @@ function wordpress_breadcrumbs() {
       $parentCat = get_category($thisCat->parent);
       if ($thisCat->parent != 0) {
         echo (get_category_parents($parentCat, TRUE, ''));
-        echo $current_before . 'Archive by category &#39;';
+        echo $current_before . __('Archive by category', 'sage') . ' &#39;';
         single_cat_title();
         echo '&#39;' . $current_after;
       }
@@ -197,7 +197,7 @@ function wordpress_breadcrumbs() {
       $cat = $cat[0];
       echo '<li class="' . $li_class . '"><a class="' . $link_class . '" href="' . home_url( '/' ) . $cat->category_nicename . '">' . $cat->name . '</a></li>';
       echo $current_before;
-      echo 'Article';
+      echo __('Article', 'sage');
       echo $current_after;
     }
     elseif (is_page() && !$post->post_parent) {
@@ -222,20 +222,20 @@ function wordpress_breadcrumbs() {
       }
     }
     elseif (is_search()) {
-      echo $current_before . 'Search results for &#39;' . get_search_query() . '&#39;' . $current_after;
+      echo $current_before . __('Search results for', 'sage') . ' &#39;' . get_search_query() . '&#39;' . $current_after;
     }
     elseif (is_tag()) {
-      echo $current_before . 'Posts tagged &#39;';
+      echo $current_before . __('Posts tagged', 'sage') . ' &#39;';
       single_tag_title();
       echo '&#39;' . $current_after;
     }
     elseif (is_author()) {
       global $author;
       $userdata = get_userdata($author);
-      echo $current_before . 'Articles posted by ' . $userdata->display_name . $current_after;
+      echo $current_before . __('Articles posted by ', 'sage') . $userdata->display_name . $current_after;
     }
     elseif (is_404()) {
-      echo $current_before . 'Error 404' . $current_after;
+      echo $current_before . __('Error 404', 'sage') . $current_after;
     }
     if (get_query_var('paged')) {
       if (is_category() || is_day() || is_month() || is_year() || is_search() || is_tag() || is_author()) {
