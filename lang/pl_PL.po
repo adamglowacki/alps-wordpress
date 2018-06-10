@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ALPS\n"
-"POT-Creation-Date: 2018-05-29 22:55+0200\n"
-"PO-Revision-Date: 2018-05-29 22:55+0200\n"
+"POT-Creation-Date: 2018-06-10 19:19+0200\n"
+"PO-Revision-Date: 2018-06-10 19:28+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pl_PL\n"
@@ -61,6 +61,10 @@ msgid "%s"
 msgstr "%s"
 
 #: functions.php:53
+msgid " ago"
+msgstr " temu"
+
+#: functions.php:53
 msgid "(Edit)"
 msgstr "(Edytuj)"
 
@@ -75,6 +79,34 @@ msgstr "Ustawienia niestandardowe ALPS"
 #: functions.php:120
 msgid "Settings"
 msgstr "Ustawienia"
+
+#: functions.php:160
+msgid "Home"
+msgstr "Strona główna"
+
+#: functions.php:178
+msgid "Archive by category"
+msgstr "Wg kategorii"
+
+#: functions.php:200
+msgid "Article"
+msgstr "Artykuł"
+
+#: functions.php:225
+msgid "Search results for"
+msgstr "Wyniki wyszukiwania dla"
+
+#: functions.php:228
+msgid "Posts tagged"
+msgstr "Posty oznaczone"
+
+#: functions.php:235
+msgid "Articles posted by "
+msgstr "Artykuły autorstwa "
+
+#: functions.php:238
+msgid "Error 404"
+msgstr "Błąd 404"
 
 #: functions.php:243
 msgid "Page"
@@ -607,6 +639,10 @@ msgid "Not Found"
 msgstr "Nie znaleziono"
 
 #: page-search.php:12 page-search.php:15
+#: patterns/components/search-form-header.php:3
+#: patterns/components/search-form-page.php:3
+#: patterns/components/search-form-page.php:6
+#: patterns/components/search-form.php:3
 msgid "Search"
 msgstr "Szukaj"
 
@@ -621,6 +657,16 @@ msgstr "Następny &rarr;"
 #: patterns/components/pagination.php:7
 msgid "&larr; Previous"
 msgstr "&larr; Poprzedni"
+
+#: patterns/components/search-form-header.php:4
+#: patterns/components/search-form.php:4
+msgid "Search&hellip;"
+msgstr "Szukaj&hellip;"
+
+#: patterns/components/search-form-header.php:6
+#: patterns/components/search-form.php:6 templates/comments.php:27
+msgid "Submit"
+msgstr "OK"
 
 #: piklist/parts/widgets/widget-post-feed.php:49 template-news.php:54
 #: template-news.php:190 templates/block-layout-front.php:58
@@ -653,10 +699,6 @@ msgstr[2] "%1$s komentarzy"
 #: templates/comments.php:26
 msgid "Leave a Comment"
 msgstr "Dodaj komentarz"
-
-#: templates/comments.php:27
-msgid "Submit"
-msgstr "OK"
 
 #: templates/content-search.php:15 templates/content.php:16
 msgid "Sorry, no results were found."
