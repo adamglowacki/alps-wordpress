@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ALPS\n"
-"POT-Creation-Date: 2018-10-31 20:31+0100\n"
-"PO-Revision-Date: 2018-10-31 20:31+0100\n"
+"POT-Creation-Date: 2018-10-31 20:54+0100\n"
+"PO-Revision-Date: 2018-10-31 20:56+0100\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: pl_PL\n"
@@ -85,20 +85,20 @@ msgid "Home"
 msgstr "Strona główna"
 
 #: functions.php:178
-msgid "Archive by category"
-msgstr "Wg kategorii"
+msgid "Archive by category &#39;"
+msgstr "Wg kategorii &#39;"
 
 #: functions.php:200
 msgid "Article"
 msgstr "Artykuł"
 
 #: functions.php:225
-msgid "Search results for"
-msgstr "Wyniki wyszukiwania dla"
+msgid "Search results for &#39;"
+msgstr "Wyniki wyszukiwania dla &#39;"
 
 #: functions.php:228
-msgid "Posts tagged"
-msgstr "Posty oznaczone"
+msgid "Posts tagged &#39;"
+msgstr "Posty oznaczone &#39;"
 
 #: functions.php:235
 msgid "Articles posted by "
